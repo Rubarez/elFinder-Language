@@ -12,13 +12,13 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			
 			/********************************** errors **********************************/
 			'error'                : 'Error',
-			'errUnknown'           : 'Error desconocido.',
-			'errUnknownCmd'        : 'Comando desconocido.',
-			'errJqui'              : 'Configuración no válida de jQuery UI. deben estar incluidos los componentes selectable, draggable y droppable.',
+			'errUnknown'           : 'Error descoñecido.',
+			'errUnknownCmd'        : 'Comando descoñecido.',
+			'errJqui'              : 'Configuración non válida de jQuery UI. Deben estar incluidos os compoñentes selectable, draggable e droppable.',
 			'errNode'              : 'elFinder necesita crear elementos DOM.',
-			'errURL'               : 'Configuración no válida de elFinder! La opción URL no está configurada.',
+			'errURL'               : 'Configuración non válida de elFinder! A opción URL non está configurada.',
 			'errAccess'            : 'Acceso denegado.',
-			'errConnect'           : 'No se ha podido conectar con el backend.',
+			'errConnect'           : 'No se puido conectar co backend.',
 			'errAbort'             : 'Conexión cancelada.',
 			'errTimeout'           : 'Conexión cancelada por timeout.',
 			'errNotFound'          : 'Backend no encontrado.',
