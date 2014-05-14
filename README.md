@@ -1,4 +1,4 @@
-elFinder-Language
+elFinder-Language-Gallego (Galician)
 =================
 
 Galician - Gallego / Idioma Gallego para elFinder
