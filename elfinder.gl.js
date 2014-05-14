@@ -66,8 +66,8 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'errNoArchive'         : 'El archivo no es de tipo archivo o es de un tipo no soportado.',
 			'errCmdNoSupport'      : 'El backend no soporta este comando.',
 			'errReplByChild'       : 'La carpeta “$1” no puede ser reemplazada por un elemento contenido en ella.',
-			'errArcSymlinks'       : 'Por razones de seguridad no se pueden descomprimir archivos que contengan symlinks.',
-			'errArcMaxSize'        : 'El tamaño del archivo excede el máximo permitido.',
+			'errArcSymlinks'       : 'Por razóns de seguridade non se pode descomprimir arquivos que conteñan symlinks.',
+			'errArcMaxSize'        : 'O tamaño do arquivo excede o máximo permitido.',
 			
 			/******************************* commands names ********************************/
 			'cmdarchive'   : 'Crear archivo',
