@@ -1,18 +1,19 @@
 /**
  * Galician translation
+ * https://github.com/Rubarez/elFinder-Language
  * @author Rubén Álvarez Mel <rubencalvinmel@gmail@gmail.com>
  * @version 2014-05-14
  */
 if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object') {
-	elFinder.prototype.i18.es = {
+	elFinder.prototype.i18.gl = {
 		translator : 'Rubén Álvarez Mel &lt;rubencalvinmel@gmail.com&gt;',
 		language   : 'Galego (Galician)',
 		direction  : 'ltr',
 		messages   : {
 			
 			/********************************** errors **********************************/
-			'error'                : 'Error',
-			'errUnknown'           : 'Error descoñecido.',
+			'error'                : 'Erro',
+			'errUnknown'           : 'Erro descoñecido.',
 			'errUnknownCmd'        : 'Comando descoñecido.',
 			'errJqui'              : 'Configuración non válida de jQuery UI. Deben estar incluidos os compoñentes selectable, draggable e droppable.',
 			'errNode'              : 'elFinder necesita crear elementos DOM.',
@@ -48,13 +49,13 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'errRename'            : 'Non se pode renomear "$1".',
 			'errCopyFrom'          : 'Non se permite copiar arquivos desde el volume "$1".',
 			'errCopyTo'            : 'Non se permite copiar arquivos ó volume "$1".',
-			'errUploadCommon'      : 'Error no envío.',
+			'errUploadCommon'      : 'Erro no envío.',
 			'errUpload'            : 'Non se pode subir "$1".',
 			'errUploadNoFiles'     : 'Non hai arquivos para subir.',
 			'errMaxSize'           : 'O tamaño dos datos excede o máximo permitido.',
 			'errFileMaxSize'       : 'O tamaño do arquivo excede o máximo permitido.',
 			'errUploadMime'        : 'Tipo de arquivo non permitidp.',
-			'errUploadTransfer'    : 'Error o transferir "$1".', 
+			'errUploadTransfer'    : 'Erro o transferir "$1".', 
 			'errSave'              : 'Non se pode gardar "$1".',
 			'errCopy'              : 'Non se pode copiar "$1".',
 			'errMove'              : 'Non se pode mover "$1".',
@@ -70,7 +71,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'errArcMaxSize'        : 'O tamaño do arquivo excede o máximo permitido.',
 			
 			/******************************* commands names ********************************/
-			'cmdarchive'   : 'Crear archivo',
+			'cmdarchive'   : 'Crear arquivo',
 			'cmdback'      : 'Atrás',
 			'cmdcopy'      : 'Copiar',
 			'cmdcut'       : 'Cortar',
@@ -83,7 +84,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'cmdhelp'      : 'Acerca deste software',
 			'cmdhome'      : 'Inicio',
 			'cmdinfo'      : 'Obter información',
-			'cmdmkdir'     : 'Nova arpeta',
+			'cmdmkdir'     : 'Nova carpeta',
 			'cmdmkfile'    : 'Novo arquivos de texto',
 			'cmdopen'      : 'Abrir',
 			'cmdpaste'     : 'Pegar',
@@ -133,8 +134,8 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'Mar'         : 'Mar',
 			'Apr'         : 'Abr',
 			'May'         : 'Mai',
-			'Jun'         : 'xuñ',
-			'Jul'         : 'xul',
+			'Jun'         : 'Xuñ',
+			'Jul'         : 'Xul',
 			'Aug'         : 'Ago',
 			'Sep'         : 'Sep',
 			'Oct'         : 'Out',
@@ -203,7 +204,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'copyFiles'       : 'Copiar arquivos',
 			'rmFromPlaces'    : 'Eliminar nas súas ubicacións',
 			'untitled folder' : 'carpeta sin título',
-			'untitled archivo.txt' : 'Arquivo.txt sen título',
+			'untitled arquivo.txt' : 'Arquivo.txt sen título',
       'mode'            : 'Modo',
       'resize'          : 'Redimensionar',
       'crop'            : 'Recortar',
